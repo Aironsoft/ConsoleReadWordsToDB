@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 using Ude;
 
 namespace ConsoleReadWordsToDB
@@ -86,12 +87,16 @@ namespace ConsoleReadWordsToDB
                 Console.WriteLine("Start reading...");
 
                 string s;
-                s = sr.ReadToEnd().Replace("\r", "").Replace("\t", "").Replace("\n", " ");
-                var stringWords = s.Split(' ') // опредеяем подходящие слова и количество каждого из них
-                        .Where(x => x.Length >= 3 && x.Length <= 20)
-                        .GroupBy(x => x)
-                        .Where(x => x.Count() >= 4)
-                        .Select(x => new Tuple<string, int>(x.Key, x.Count()));
+                s = sr.ReadToEnd().ToLower();
+
+                Regex regex = new Regex(@"\w+(([-]?)\w+)?");
+
+                var stringWords = regex.Matches(s).Cast<Match>()
+                    .Where(x => x.Length >= 3 && x.Length <= 20) // длина слова не меньше 4 и не больше 20
+                    .Select(x => x.Value)
+                    .GroupBy(x => x)
+                    .Where(x => x.Count() >= 4) // слово встречается не менее 4-х раз
+                    .Select(x => new Tuple<string, int>(x.Key, x.Count()));
 
                 // добавление подходящих слов в БД
                 foreach (var word in stringWords)
