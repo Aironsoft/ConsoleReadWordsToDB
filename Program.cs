@@ -92,7 +92,7 @@ namespace ConsoleReadWordsToDB
                 Regex regex = new Regex(@"\w+(([-]?)\w+)?");
 
                 var stringWords = regex.Matches(s).Cast<Match>()
-                    .Where(x => x.Length >= 3 && x.Length <= 20) // длина слова не меньше 4 и не больше 20
+                    .Where(x => x.Length >= 3 && x.Length <= 20) // длина слова не меньше 3 и не больше 20
                     .Select(x => x.Value)
                     .GroupBy(x => x)
                     .Where(x => x.Count() >= 4) // слово встречается не менее 4-х раз
