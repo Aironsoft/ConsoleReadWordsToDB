@@ -31,6 +31,8 @@ namespace ConsoleReadWordsToDB
                 {
                     doneReadingWork = startReadingWork(db);
                 }
+
+                Console.WriteLine("Closing the program...");
             }
         }
 
@@ -86,8 +88,9 @@ namespace ConsoleReadWordsToDB
                 string s;
                 s = sr.ReadToEnd().Replace("\r", "").Replace("\t", "").Replace("\n", " ");
                 var stringWords = s.Split(' ') // опредеяем подходящие слова и количество каждого из них
-                        .Where(x => x.Length > 3 && x.Length < 21)
+                        .Where(x => x.Length >= 3 && x.Length <= 20)
                         .GroupBy(x => x)
+                        .Where(x => x.Count() >= 4)
                         .Select(x => new Tuple<string, int>(x.Key, x.Count()));
 
                 // добавление подходящих слов в БД
