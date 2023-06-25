@@ -1,0 +1,16 @@
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\ConsoleReadWordsToDB.exe
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\ConsoleReadWordsToDB.pdb
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\obj\Debug\ConsoleReadWordsToDB.csproj.AssemblyReference.cache
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\obj\Debug\ConsoleReadWordsToDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\obj\Debug\ConsoleReadWordsToDB.csproj.CoreCompileInputs.cache
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\obj\Debug\ConsoleReadWordsToDB.exe
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\obj\Debug\ConsoleReadWordsToDB.pdb
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\EntityFramework.dll
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\EntityFramework.xml
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\obj\Debug\ConsoleReadWordsToDB.csproj.CopyComplete
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\ConsoleReadWordsToDB.exe.config
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\Ude.dll
+C:\Users\airon\OneDrive\Документы\Visual Studio 2022\Projects\ConsoleReadWordsToDB\ConsoleReadWordsToDB\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
